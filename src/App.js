@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Admin from './components/Admin/Admin';
+import Profile from './components/Team/Profile/Profile';
+import Deves_form from './components/Forms/RegeForm/Deves_form';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+
+      <Header />
+      <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='/admin' element={<Admin></Admin>}></Route>
+            <Route path='/profile' element={<Profile></Profile>}></Route>
+            <Route path='/registration' element={<Deves_form></Deves_form>}></Route>
+        </Routes>
+      </BrowserRouter>
+
+    </>
+
   );
 }
 

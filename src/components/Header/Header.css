@@ -1,0 +1,21 @@
+
+
+.header-img img {
+	width: 63px;
+}
+.mamu_items{}
+.mamu_items ul{
+    margin: 0;
+}
+.mamu_items ul li{
+    list-style: none;
+    display: inline-block;
+}
+.mamu_items ul li a{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}

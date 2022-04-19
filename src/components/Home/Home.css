@@ -1,0 +1,33 @@
+
+
+
+.member_sec {
+	padding: 10px 0;
+}
+.member_img_sec img {
+	width: 100%;
+}
+
+.member_con_sec h1 {
+	font-size: 15px;
+	font-weight: 700;
+}
+.member_con_sec p {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.member_soc_sec ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.member_soc_sec ul li a {
+	display: block;
+	width: 25px;
+	border: 1px solid #ddd;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 50%;
+	margin-right: 7px;
+}

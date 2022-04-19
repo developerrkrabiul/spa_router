@@ -1,0 +1,20 @@
+
+
+.all_deves_data img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+
+.all_deves_data.card-body td {
+	line-height: 58px;
+}
+
+.all_deves_data.card-body button {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+}
