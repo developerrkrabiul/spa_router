@@ -17,7 +17,7 @@ const Deves_form = () => {
                                     <h1>Create New Account</h1>
                                 </Card.Header>
                                 <Card.Body>
-                                    <div className="profile_con_sec">
+                                    <div className="d_form_con_sec">
                                         <Form>
                                             <Row>
                                                 <Col md={6}>

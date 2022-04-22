@@ -1,0 +1,23 @@
+
+
+
+
+.profile_imge h1 {
+	font-size: 20px;
+	text-align: center;
+}
+.profile_imge p {
+	text-align: center;
+	font-size: 15px;
+	color: #0000009c;
+}
+.profile_con_sec h1 {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	background: #ddd;
+	margin: 20px 0;
+	padding: 10px 0;
+	font-weight: 800;
+}
+

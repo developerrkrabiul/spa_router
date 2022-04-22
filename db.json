@@ -1,0 +1,28 @@
+{
+  "deves": [
+    {
+      "id": 1,
+      "name": "Rk Rabiul islam Razu",
+      "email": "rk@gmail.com",
+      "phone": "01626761798",
+      "skill": "WorkPress Developer",
+      "photo": "https://cdn.powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png",
+      "fb": "fb.com",
+      "twi": "twi.com",
+      "inst": "#",
+      "youtube": "youtube.com"
+    },
+    {
+      "id": 2,
+      "name": "Robi",
+      "email": "rk@gmail.com",
+      "phone": "01626761798",
+      "skill": "WorkPress Developer",
+      "photo": "https://www.alhaya-medical.com/wp-content/uploads/2017/11/team-member.jpg",
+      "fb": "facebook.com",
+      "twi": "",
+      "inst": "",
+      "youtube": "youtube.com"
+    }
+  ]
+}

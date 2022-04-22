@@ -11,12 +11,12 @@ const Header = () => {
       <section className='shadow-sm'>
           <Container >
               <Row>
-                  <Col md={5}>
-                      <div className="header-img">                     
-                        <img src="https://3.imimg.com/data3/CW/YX/MY-13215058/rk-logo-500x500.png" alt="" /> 
+                  <Col md={3}>
+                      <div className="header-img">    
+                      <Link to="/"><img  src="https://3.imimg.com/data3/CW/YX/MY-13215058/rk-logo-500x500.png" alt="" /></Link>                 
                       </div>
                   </Col>
-                  <Col md={7} className='d-flex align-content-center'>
+                  <Col md={9} className='d-flex align-content-center'>
                       <div className="mamu_items">                      
                         <ul>
                             <li><Link to="/">Home</Link></li>
